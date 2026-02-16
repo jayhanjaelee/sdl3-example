@@ -1,5 +1,7 @@
 CC = clang
-CFLAGS = -lSDL3
+CFLAGS = -I/usr/local/include \
+		 -L/usr/local/lib \
+		 -lSDL3
 
 SRC_DIR = src
 BUILD_DIR = build
