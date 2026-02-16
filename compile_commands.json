@@ -1,0 +1,15 @@
+[
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "clang",
+      "-MD",
+      "-c",
+      "-o",
+      "build/objs/main.o",
+      "src/main.c"
+    ],
+    "directory": "/Users/jay/Desktop/gui/sdl",
+    "output": "build/objs/main.o"
+  }
+]
